@@ -41,7 +41,7 @@ spec:
     port: 8000
     protocol: TCP
     targetPort: 8000
-    nodePort: 30001
+    nodePort: 32901
   selector:
     name: ui-app
 
@@ -59,6 +59,6 @@ spec:
     port: 8000
     protocol: TCP
     targetPort: 8000
-    nodePort: 30002
+    nodePort: 32902
   selector:
     name: ui-app
